@@ -1,8 +1,6 @@
 package observer;
 
-public abstract class DisplayInterfac implements Observer {
-
-	WeatherData weatherData;
+public interface DisplayInterfac {
 
 	public abstract void display();
 }

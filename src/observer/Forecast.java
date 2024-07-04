@@ -1,6 +1,8 @@
 package observer;
 
-public class Forecast extends DisplayInterfac {
+public class Forecast implements DisplayInterfac, Observer {
+
+	WeatherData weatherData;
 
 	Forecast(WeatherData weatherData) {
 		this.weatherData = weatherData;

@@ -1,6 +1,8 @@
 package observer;
 
-public class CurrentCondition extends DisplayInterfac {
+public class CurrentCondition implements DisplayInterfac, Observer {
+
+	WeatherData weatherData;
 
 	CurrentCondition(WeatherData weatherData) {
 		this.weatherData = weatherData;
