@@ -1,7 +1,7 @@
-package strategy.duck;
+package strategy;
 
-import strategy.duck.fly.FlyNot;
-import strategy.duck.quack.SqueakQuack;
+import strategy.fly.FlyNot;
+import strategy.quack.SqueakQuack;
 
 public class RubberDuck extends Duck {
 

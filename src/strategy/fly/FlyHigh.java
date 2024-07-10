@@ -1,4 +1,4 @@
-package strategy.duck.fly;
+package strategy.fly;
 
 public class FlyHigh implements FlyBehaviour {
 

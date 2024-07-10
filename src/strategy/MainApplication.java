@@ -1,7 +1,7 @@
-package strategy.duck;
+package strategy;
 
-import strategy.duck.Duck;
-import strategy.duck.RubberDuck;
+import strategy.Duck;
+import strategy.RubberDuck;
 
 public class MainApplication {
 

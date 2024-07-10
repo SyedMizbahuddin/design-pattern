@@ -1,7 +1,7 @@
-package strategy.duck;
+package strategy;
 
-import strategy.duck.fly.FlyHigh;
-import strategy.duck.quack.MuteQuack;
+import strategy.fly.FlyHigh;
+import strategy.quack.MuteQuack;
 
 public class MallardDuck extends Duck {
 
