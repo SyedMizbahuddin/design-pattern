@@ -10,7 +10,7 @@ public class FanLowCommand implements Command {
 
 	public FanLowCommand(Fan fan) {
 		this.fan = fan;
-		prev = FanSpeed.OFF;
+		prev = fan.getSpeed();
 	}
 
 	@Override

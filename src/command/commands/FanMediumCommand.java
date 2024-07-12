@@ -10,7 +10,7 @@ public class FanMediumCommand implements Command {
 
 	public FanMediumCommand(Fan fan) {
 		this.fan = fan;
-		prev = FanSpeed.OFF;
+		prev = fan.getSpeed();
 	}
 
 	@Override
