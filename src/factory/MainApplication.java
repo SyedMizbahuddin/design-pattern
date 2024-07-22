@@ -15,7 +15,19 @@ public class MainApplication {
 		factoryMethod.orderPizza("Cheese");
 
 		/*
-		 * Abstract factory It creates a family of products - NYIngredientFactory.
+		 * Abstract factory
+		 * 
+		 * It creates a family of products - NYIngredientFactory.
+		 * 
+		 * createDough()
+		 * 
+		 * createSauce()
+		 * 
+		 * createCheese()
+		 * 
+		 * 
+		 * For one kind, it creates all the products. It does not take any param , but
+		 * can take
 		 */
 	}
 
