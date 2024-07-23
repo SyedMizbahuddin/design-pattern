@@ -21,7 +21,6 @@ public class MacroCommand implements Command {
 			commands[i].undo();
 		}
 
-		Iterator<?> it;
 	}
 
 }
